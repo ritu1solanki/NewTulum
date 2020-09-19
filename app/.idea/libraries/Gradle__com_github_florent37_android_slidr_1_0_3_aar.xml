@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.florent37:android-slidr:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb2706dba1e3bc0af8a0732ef0dbff39/jetified-android-slidr-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/eb2706dba1e3bc0af8a0732ef0dbff39/jetified-android-slidr-1.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/android-slidr/1.0.3/511da8545daf9b8b76d0bdd99985d7b0434df22c/android-slidr-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.florent37/android-slidr/1.0.3/620b54076b9a0ea95afa7c1c9f5bee006ad5039c/android-slidr-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

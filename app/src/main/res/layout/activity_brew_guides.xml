@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BrewGuides">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back" />
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/josefinsansregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+
+        android:layout_marginLeft="100dp"
+        android:text="Brew Guides"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+
+
+        />
+
+
+    <Button
+
+        android:id="@+id/prod"
+        android:layout_width="250dp"
+
+        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/redgrad"
+        android:text="Add Recipe"
+        android:textColor="@color/CreamColor"
+        />
+
+    <Button
+
+        android:id="@+id/SignUp"
+        android:layout_width="250dp"
+
+        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/redgrad"
+        android:text="Add Video"
+        android:textColor="@color/CreamColor"
+        />
+
+
+
+
+
+
+</LinearLayout>

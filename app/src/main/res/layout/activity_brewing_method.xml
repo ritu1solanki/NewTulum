@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrewingMethod"
+    android:background="@color/White"
+   >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="122dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/hm"
+                android:layout_width="73dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="345dp"
+                android:layout_marginTop="65dp"
+                android:scaleX="2.5"
+                android:scaleY="2.7"
+                android:src="@drawable/arrowup" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/usergreenbackground" />
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </RelativeLayout>
+
+
+    <TextView
+
+        android:fontFamily="@font/josefinsansregular"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:text="Brewing methods"
+        android:layout_marginLeft="20dp"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="@color/Black"
+
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f2f2f2">
+        <!--AeroPress-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/aerospace"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="35dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+
+                android:layout_gravity="center_horizontal">
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/aeropress"
+                        />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:fontFamily="@font/josefinsansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AeroPress"
+                android:layout_gravity="center"
+                android:textSize="21sp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:padding="10dp"  />
+        </LinearLayout>
+        <!--FrenchPress-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/french_press"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="230dp"
+           >
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+
+                android:layout_gravity="center_horizontal"
+                tools:targetApi="lollipop">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/frenchpress" />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:fontFamily="@font/josefinsansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FrenchPress"
+                android:textSize="21sp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:padding="10dp"
+
+
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <!--PourOver-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/pourover"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_below="@id/aerospace"
+            android:layout_marginLeft="30dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+
+                tools:targetApi="lollipop"
+                android:layout_gravity="center_horizontal"
+                >
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/v60"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:fontFamily="@font/josefinsansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="v60 Pourover"
+                android:textSize="21sp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <!--MokaPot-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/moka_pot"
+            android:layout_below="@id/aerospace"
+
+
+            android:layout_marginTop="30dp"
+
+            android:layout_marginLeft="230dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="20dp"
+
+                tools:targetApi="lollipop"
+                android:layout_gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mokapot"
+                    />
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:fontFamily="@font/josefinsansregular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moka Pot"
+                android:textSize="21sp"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="500dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tulumlogo"
+            android:layout_gravity="bottom"/>
+    </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

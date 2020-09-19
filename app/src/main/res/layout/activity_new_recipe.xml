@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewRecipe"
+    android:background="@color/White"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:id="@+id/back"/>
+    <TextView
+        android:id="@+id/method"
+        android:fontFamily="@font/josefinsansregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aeropress"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:textColor="@color/Black"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/start"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/roundbutton"
+        android:layout_gravity="center_horizontal">
+        <ProgressBar
+            android:id="@+id/barTimer"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/circular_shape"
+            android:max="118"
+            android:progressDrawable="@drawable/progress_bar"
+            android:progressTint="@color/GreenColor"
+            tools:targetApi="lollipop" />
+        <ImageView
+            android:id="@+id/play"
+            android:src="@drawable/back"
+            android:rotation="180"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+<!--        Step1-->
+
+        <TextView
+            android:id="@+id/step1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step1"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="30sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/GreenColor"
+            android:fontFamily="@font/josefinsansregular"
+            />
+<!--        Step2-->
+        <TextView
+            android:id="@+id/step2"
+            android:alpha="0.3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step2"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/GrayColor"
+            android:fontFamily="@font/josefinsansregular"/>
+
+<!--        Step3-->
+        <TextView
+            android:alpha="0.2"
+            android:id="@+id/step3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step3"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/GrayColor"
+            android:fontFamily="@font/josefinsansregular"/>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:layout_marginTop="51dp"
+                android:layout_width="155dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="130dp"
+                android:background="@drawable/greenplaypausebkgd" />
+
+            <Button
+                android:id="@+id/pause"
+                android:layout_marginLeft="90dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:background="@drawable/paause"
+                />
+
+            <Button
+                android:layout_marginLeft="160dp"
+                android:id="@+id/resume"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:background="@drawable/play"
+                />
+
+        </FrameLayout>
+<!--        Step4-->
+
+<!--
+        <TextView
+            android:id="@+id/step4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step4"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+&lt;!&ndash;        Step5&ndash;&gt;
+        <TextView
+            android:id="@+id/step5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step5"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+&lt;!&ndash;        Step6&ndash;&gt;
+        <TextView
+            android:id="@+id/step6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step6"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+&lt;!&ndash;        Step7&ndash;&gt;
+        <TextView
+            android:id="@+id/step7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step7"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+&lt;!&ndash;        Step8&ndash;&gt;
+        <TextView
+            android:id="@+id/step8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step8"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+&lt;!&ndash;        Step9&ndash;&gt;
+        <TextView
+            android:id="@+id/step9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step9"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+            &lt;!&ndash;Step10&ndash;&gt;
+        <TextView
+            android:id="@+id/step10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step10"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+        &lt;!&ndash;Step11&ndash;&gt;
+        <TextView
+            android:id="@+id/step11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step11"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>
+
+        &lt;!&ndash;Step12&ndash;&gt;
+        <TextView
+            android:id="@+id/step12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="step12"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:textAlignment="center"
+            android:textColor="@color/White"
+            android:fontFamily="@font/josefinsansregular"/>-->
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

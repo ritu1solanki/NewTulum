@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Thogari">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/usergreenbackground" />
+
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:src="@drawable/back" />
+        </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/thogari"
+        android:layout_marginLeft="20dp"
+        android:layout_width="373dp"
+        android:layout_height="242dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:visibility="visible"
+        app:cardCornerRadius="45dp"
+
+        >
+
+    <ImageView
+        tools:ignore="ContentDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/orange_package"
+        android:scaleType="centerCrop"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        app:cardCornerRadius="30dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="180dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thogarihunkal"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff6500"/>
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+        <TextView
+           android:textStyle="bold"
+            android:fontFamily="@font/josefinsansregular"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/Black"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chickmagalur Karnataka 1000-1400 meters  Medium Roast
+                         Notes:Cherry,BlueBerry"
+            />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="@font/josefinsansregular"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#6aa89a"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select these options"
+            />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:fontFamily="@font/josefinsansregular"
+                    android:id="@+id/coffee_dose"
+                    android:text="Aero
+                    Press"
+                    android:textAllCaps="false"
+                    android:textColor="#ff6500"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/orangeroundbutton"
+                    />
+                <TextView
+                    android:fontFamily="@font/josefinsansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grind Size"
+                    android:textSize="15sp"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="10dp"  />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:fontFamily="@font/josefinsansregular"
+                    android:id="@+id/ratio"
+                    android:text="250"
+                    android:textSize="20sp"
+                    android:textColor="#ff6500"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/orangeroundbutton"
+                    />
+                <TextView
+                    android:fontFamily="@font/josefinsansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Weight"
+                    android:textSize="15sp"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:fontFamily="@font/josefinsansregular"
+                    android:id="@+id/water_amt"
+                    android:textAllCaps="false"
+                    android:text="1"
+                    android:textColor="#ff6500"
+                    android:textSize="20sp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:background="@drawable/orangeroundbutton"
+                    />
+                <TextView
+                    android:fontFamily="@font/josefinsansregular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quantity"
+                    android:textSize="15sp"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

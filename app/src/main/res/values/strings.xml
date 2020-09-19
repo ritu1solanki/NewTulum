@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Tulum Coffee</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="facebook_app_id">1148728852159863</string>
+    <string name="fb_login_protocol_scheme">fb1148728852159863</string>
+
+
+    <string name="roboto_regular">sans-serif</string>
+    <string name="roboto_light">sans-serif-light</string>
+    <string name="roboto_condensed">sans-serif-condensed</string>
+    <string name="roboto_thin">sans-serif-thin</string>
+    <string name="roboto_medium">sans-serif-medium</string>
+    <string name="number_picker_formatter">%02d</string>
+
+    <!--    <string name="step1">Add xno gms of coffee into the chamber</string>-->
+    <!--    <string name="step2">Pour xno ml of water into the chamber</string>-->
+    <!--    <string name="step3">Stir in one Direction</string>-->
+    <!--    <string name="step4">Wait for coffee to bloom</string>-->
+    <!--    <string name="step5">Pour 180ml - xml of water</string>-->
+    <!--    <string name="step6">Place the pluger on the top and pull it a little bit till you feel the suction</string>-->
+    <!--    <string name="step7">let the coffee Brew</string>-->
+    <!--    <string name="step8">Gently press the plunger</string>-->
+    <!--    <string name="step9">Ready to sip!</string>-->
+    <string name="take_photo">Take a Picture and share it with your friends.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

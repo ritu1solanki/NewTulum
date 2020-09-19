@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315882781347",
+    "firebase_url": "https://tulum-coffee.firebaseio.com",
+    "project_id": "tulum-coffee",
+    "storage_bucket": "tulum-coffee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315882781347:android:ff1ea9998f0beff4275d16",
+        "android_client_info": {
+          "package_name": "com.example.tulupcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315882781347-hqof4opqttuct98hmuf2bqm66d7fvqd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tulupcoffee",
+            "certificate_hash": "ea51f8850b095c3ee1025c0b21edd234e2995a97"
+          }
+        },
+        {
+          "client_id": "315882781347-ea9iqt7g97q6qjt49smg0tucmghge827.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcJfNZB2Sf-IFf431qLtykZzNf_luAkhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315882781347-ea9iqt7g97q6qjt49smg0tucmghge827.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
